@@ -1,5 +1,5 @@
 resource "azurerm_linux_function_app" "serverless1" {
-    name                = "serverless-${ var.project }-${ var.environment }"
+    name                = "serverless-${ var.project }s-${ var.environment }"
     resource_group_name = azurerm_resource_group.rg.name
     location            = var.location
 
